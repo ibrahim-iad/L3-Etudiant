@@ -1,0 +1,18 @@
+﻿@model WebApplication1.Models.Etudiant
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Etudiant</h2>
+
+<table border="1">
+    <tr>
+        <th>Nom</th><th>Adresse</th><th>Telephone</th>
+    </tr>
+    <tr>
+        <td>@Model.Nom</td>
+        <td>@Model.Adresse</td>
+        <td>@Model.Telephone</td>
+    </tr>
+</table>

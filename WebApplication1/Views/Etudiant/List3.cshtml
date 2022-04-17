@@ -1,0 +1,24 @@
+﻿@using WebApplication1.Models;
+@model List<WebApplication1.Models.Etudiant>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Etudiant</h2>
+
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Adresse</th>
+        <th>Telephone</th>
+    </tr>
+    @foreach (Etudiant et in Model)
+    {
+        <tr>
+            <td>@et.Nom</td>
+            <td>@et.Adresse</td>
+            <td>@et.Telephone</td>
+        </tr>
+    }
+</table>
