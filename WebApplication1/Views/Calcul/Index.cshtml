@@ -3,7 +3,37 @@
 
 <h2>Calcul</h2>
 
-Somme: @Model.somme <br/>
-Différence: @Model.difference <br/>
-Produit: @Model.produit <br/>
-Division: @Model.division <br/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Opération</th>
+            <th>Résultat</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre1</td>
+            <td>@Model.nombre1</td>
+        </tr>
+        <tr>
+            <td>Nombre2</td>
+            <td>@Model.nombre2</td>
+        </tr>
+        <tr>
+            <td>Somme</td>
+            <td>@Model.somme</td>
+        </tr>
+        <tr>
+            <td>Différence</td>
+            <td>@Model.difference</td>
+        </tr>
+        <tr>
+            <td>Produit</td>
+            <td>@Model.produit</td>
+        </tr>
+        <tr>
+            <td>division</td>
+            <td>@Model.division</td>
+        </tr>
+    </tbody>
+</table>

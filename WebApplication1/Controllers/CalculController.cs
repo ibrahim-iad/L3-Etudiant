@@ -13,6 +13,8 @@ namespace WebApplication1.Controllers
         public ActionResult Index(int id1, int id2)
         {
             CalculResultat model = new CalculResultat();
+            model.nombre1 = id1;
+            model.nombre2 = id2;
             model.somme = id1 + id2;
             model.difference = id1 - id2;
             model.produit = id1 * id2;

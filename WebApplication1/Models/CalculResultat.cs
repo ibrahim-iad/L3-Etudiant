@@ -7,6 +7,8 @@ namespace WebApplication1.Models
 {
     public class CalculResultat
     {
+        public int nombre1;
+        public int nombre2;
         public int somme;
         public int difference;
         public int produit;
