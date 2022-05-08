@@ -225,6 +225,8 @@
     <Content Include="Views\Table\Index.cshtml" />
     <Content Include="Views\Table\Index2.cshtml" />
     <Content Include="Views\Calcul\Index.cshtml" />
+    <Content Include="Views\Calcul\New.cshtml" />
+    <Content Include="Views\Calcul\New2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -260,7 +262,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58433</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:58433/</IISUrl>
+          <IISUrl>http://localhost:58434/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

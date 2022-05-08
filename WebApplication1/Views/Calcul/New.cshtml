@@ -1,0 +1,21 @@
+﻿@model WebApplication1.Models.CalculResultat
+
+<h2>Nouveau calcul</h2>
+
+@using (Html.BeginForm("New", "Calcul", FormMethod.Post, new { id = "New" }))
+{
+<table border="1">
+    <tr>
+        <td>@Html.LabelFor(m => m.nombre1)</td>
+        <td>@Html.TextBoxFor(m => m.nombre1)</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(m => m.nombre2)</td>
+        <td>@Html.TextBoxFor(m => m.nombre2)</td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Calculer" /></td>
+    </tr>
+</table>
+}
+
