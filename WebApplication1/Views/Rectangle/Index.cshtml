@@ -1,0 +1,22 @@
+﻿@model WebApplication1.Models.RectangleModel
+
+<h2>Opérations sur le rectangle</h2>
+
+@using (Html.BeginForm("Calcul", "Rectangle", FormMethod.Post, new { id = "New" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Longueur)
+        @Html.TextBoxFor(m => m.Longueur, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Largeur)
+        @Html.TextBoxFor(m => m.Largeur, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Calculer" class="btn btn-primary" />
+    </div>
+
+}
+

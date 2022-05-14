@@ -1,0 +1,17 @@
+﻿@model WebApplication1.Models.SaisieModel
+
+<h2>Nouvelle table de multiplication</h2>
+
+@using (Html.BeginForm("Table", "Table", FormMethod.Post, new { id = "New" }))
+{
+    <table border="1">
+        <tr>
+            <td>@Html.LabelFor(m => m.Nombre)</td>
+            <td>@Html.TextBoxFor(m => m.Nombre)</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Afficher la table" /></td>
+        </tr>
+    </table>
+}
+

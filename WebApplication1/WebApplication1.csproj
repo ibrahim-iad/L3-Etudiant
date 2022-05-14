@@ -174,12 +174,15 @@
     <Compile Include="Controllers\CalculController.cs" />
     <Compile Include="Controllers\EtudiantController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RectangleController.cs" />
     <Compile Include="Controllers\TableController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CalculResultat.cs" />
     <Compile Include="Models\Etudiant.cs" />
+    <Compile Include="Models\RectangleModel.cs" />
+    <Compile Include="Models\SaisieModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -227,6 +230,9 @@
     <Content Include="Views\Calcul\Index.cshtml" />
     <Content Include="Views\Calcul\New.cshtml" />
     <Content Include="Views\Calcul\New2.cshtml" />
+    <Content Include="Views\Table\Table.cshtml" />
+    <Content Include="Views\Rectangle\Index.cshtml" />
+    <Content Include="Views\Rectangle\Calcul.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
